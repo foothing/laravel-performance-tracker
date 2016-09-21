@@ -7,7 +7,10 @@
             "email": "fabrizio.ranieri@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+		"illuminate/support": "~5.0",
+		"illuminate/log": "~5.0"
+	},
 	"autoload": {
 		"psr-4": {
 			"Foothing\\Laravel\\PTracker\\": "src"
