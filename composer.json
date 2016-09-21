@@ -1,0 +1,16 @@
+{
+    "name": "foothing/laravel-performance-tracker",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "brazorf",
+            "email": "fabrizio.ranieri@gmail.com"
+        }
+    ],
+    "require": {},
+	"autoload": {
+		"psr-4": {
+			"Foothing\\Laravel\\PTracker\\": "src"
+		}
+	}
+}
