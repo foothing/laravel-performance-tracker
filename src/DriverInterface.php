@@ -1,6 +1,6 @@
 <?php namespace Foothing\Laravel\PTracker;
 
-use Illuminate\Support\Facades\Request;
+use Illuminate\Http\Request;
 
 interface DriverInterface {
 

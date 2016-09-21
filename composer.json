@@ -7,9 +7,11 @@
             "email": "fabrizio.ranieri@gmail.com"
         }
     ],
+	"keywords": ["laravel", "debug", "tracking", "logging", "performance"],
     "require": {
 		"illuminate/support": "~5.0",
-		"illuminate/log": "~5.0"
+		"illuminate/log": "~5.0",
+		"illuminate/http": "~5.0"
 	},
 	"autoload": {
 		"psr-4": {

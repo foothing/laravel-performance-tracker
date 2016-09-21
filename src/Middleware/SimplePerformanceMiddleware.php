@@ -1,7 +1,7 @@
 <?php namespace Foothing\Laravel\PTracker\Middleware;
 
-use Foothing\PTracker\DriverInterface;
-use Foothing\PTracker\Time;
+use Foothing\Laravel\PTracker\DriverInterface;
+use Foothing\Laravel\PTracker\Time;
 
 class SimplePerformanceMiddleware {
 

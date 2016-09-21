@@ -8,7 +8,6 @@ class Time {
     }
 
     public static function tick($t0) {
-        return self::get() - $t0;
+        return self::start() - $t0;
     }
-
 }

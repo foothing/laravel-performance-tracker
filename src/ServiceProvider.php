@@ -3,7 +3,7 @@
 class ServiceProvider extends \Illuminate\Support\ServiceProvider {
 
     public function register() {
-        $this->app->bind("Foothing\PTracker\DriverInterface", "Foothing\PTracker\LogDriver");
+        $this->app->bind("Foothing\Laravel\PTracker\DriverInterface", "Foothing\Laravel\PTracker\LogDriver\LogDriver");
     }
 
 }
